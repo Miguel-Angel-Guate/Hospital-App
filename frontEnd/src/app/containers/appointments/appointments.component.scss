@@ -1,0 +1,21 @@
+
+
+.appointments{
+  margin-top: 0px;
+   h2{
+     display: flex;
+     justify-content: center;
+
+   }
+  }
+  .appointment{
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    span{
+      display: flex;
+      align-items: center;
+      padding: 2px;
+    }
+  }

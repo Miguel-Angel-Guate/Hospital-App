@@ -1,0 +1,38 @@
+
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+  <span class="sp"> <mat-icon  matBadgeColor="accent">local_hospital</mat-icon>Geeks Hubs Hospital</span>
+  <form class="form-inline my-2 my-lg-0" (submit)="searchPhysicians($event)">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search " autofocus aria-label="Search"
+    name="searchInput" >
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" >Search</button>
+  </form>
+
+
+
+<div class="not">
+  <mat-icon matBadge="37" matBadgeColor="accent">notifications</mat-icon>
+  <mat-icon matBadge="20" matBadgeColor="primary">flag</mat-icon>
+  <mat-icon matBadge="1" matBadgeColor="warn">settings</mat-icon>
+</div>
+</nav>
+<div class="btn-group-vertical">
+  <button mat-flat-button color="primary">Main Navigation</button>
+
+  <button mat-icon-button color="primary" aria-label="Example icon-button with a heart icon">
+    <mat-icon>home</mat-icon> Home
+  </button>
+  <button mat-icon-button color="primary" routerLink="/physicians" aria-label="Example icon-button with a heart icon">
+    <mat-icon>perm_identity</mat-icon> Physicians
+  </button>
+  <button mat-icon-button color="primary" routerLink="/appointments" aria-label="Example icon-button with a heart icon">
+    <mat-icon>library_add_check</mat-icon> Appointments
+  </button>
+  <button mat-icon-button color="primary" routerLink="/patients" aria-label="Example icon-button with a heart icon">
+    <mat-icon>supervisor_account</mat-icon> Patients
+  </button>
+
+
+  <button mat-icon-button color="warn" aria-label="Example icon-button with a heart icon">
+    <mat-icon>favorite</mat-icon> we work for your health
+  </button>
+</div>

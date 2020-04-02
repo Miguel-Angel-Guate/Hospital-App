@@ -1,0 +1,8 @@
+<div class="physicians" *ngIf="physicianService.physicians">
+  <h2>physician Names</h2>
+  <ol class="physician" *ngFor="let physician of physicianService.physicians">
+    <span class="badge" color="primary">Physcian Name: {{physician.name}}</span>
+
+  </ol>
+
+</div>

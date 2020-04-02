@@ -1,0 +1,19 @@
+<div class="appointments" *ngIf="appointmentService.appointments">
+
+ <h2>appointment Id</h2>
+  <ol class="appointment" *ngFor="let appointment of appointmentService.appointments">
+    <span>{{appointment.Id}}</span>
+    <span>Physhician: {{ appointment.Physician.name}}</span>
+    <!-- {{appointment |json}} -->
+   <span> Patient name: {{appointment.Patient.name}}</span>
+    <span>appointmentDay :{{appointment.date }}</span>
+
+     <!-- <span *ngFor="let physician of appointmentService.appointments">{{appointment.Physician}} </span> -->
+     <!-- <span *ngFor="let patient of appointmentService.patients">{{appointment.Patients}} </span> -->
+
+
+
+
+  </ol>
+
+</div>

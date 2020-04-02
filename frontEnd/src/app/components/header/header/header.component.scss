@@ -1,0 +1,58 @@
+
+
+// }
+// .navbar{
+//   background-color: #4db6ac;
+// }
+.navbar{
+  background-color: #4db6ac!important;
+  justify-content: space-between;
+  display: flex;
+
+}
+.btn{
+  background-color: white;
+}
+.form-control,.btn{
+  height: 30px;
+  padding-left: 10px;
+  font-size: 14px;
+
+
+
+}
+.btn {
+  font-size: 12px;
+  // align-items: center;
+}
+.example-full-width{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+
+}
+
+.btn-outline-success{
+  display: flex;
+  padding-right: 10px;
+
+}
+.sp{
+  color:white;
+  cursor:pointer;
+}
+.not{
+  display: flex;
+  align-items: center;
+ cursor: pointer;
+
+}
+.btn-group-vertical{
+  width: 180px;
+
+  display: grid;
+  grid:150px;
+
+}
+

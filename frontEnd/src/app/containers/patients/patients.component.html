@@ -1,0 +1,9 @@
+<div class="patients" *ngIf="patientService.patients">
+  <h2>patient Names</h2>
+  <div class="patient" *ngFor="let patient of patientService.patients">
+    <span class="badge">Patient Name: {{patient.name}}</span>
+
+  </div>
+
+</div>
+
