@@ -15,6 +15,7 @@ import { PhysiciansComponent } from './containers/physicians/physicians.componen
 import { AppointmentsComponent } from './containers/appointments/appointments.component';
 import { PatientsComponent } from './containers/patients/patients.component';
 import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './containers/home/home.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     PhysiciansComponent,
     AppointmentsComponent,
-    PatientsComponent
+    PatientsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
