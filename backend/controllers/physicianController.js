@@ -44,7 +44,7 @@ const PhysicianController ={
         .then(physician => res.send(physician))
 },
 async delete(req, res) {
-    await Physician.destroy({
+    await PhysicianId.destroy({
         where: {
             id: req.params.id
         }
