@@ -16,6 +16,10 @@ import { AppointmentsComponent } from './containers/appointments/appointments.co
 import { PatientsComponent } from './containers/patients/patients.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './containers/home/home.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatListModule} from '@angular/material/list';
+
+
 
 
 @NgModule({
@@ -37,7 +41,9 @@ import { HomeComponent } from './containers/home/home.component';
     MatToolbarModule,
     MatBadgeModule,
     MatIconModule,
-    HttpClientModule
+    HttpClientModule,
+    MatTableModule,
+    MatListModule
 
 
 

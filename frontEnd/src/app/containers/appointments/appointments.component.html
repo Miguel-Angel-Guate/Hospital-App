@@ -1,7 +1,7 @@
 <div class="appointments" *ngIf="appointmentService.appointments">
 
- <h2>appointment Id</h2>
-  <ol class="appointment" *ngFor="let appointment of appointmentService.appointments">
+ <h2>Appointments</h2>
+  <mat-list class="appointment" *ngFor="let appointment of appointmentService.appointments">
     <span>{{appointment.Id}}</span>
     <span>Physhician: {{ appointment.Physician.name}}</span>
     <!-- {{appointment |json}} -->
@@ -14,6 +14,6 @@
 
 
 
-  </ol>
+  </mat-list>
 
 </div>
