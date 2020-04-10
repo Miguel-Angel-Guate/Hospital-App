@@ -18,13 +18,15 @@
   .appointment{
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    margin-left: 2px;
 
     align-items: flex-start;
     span{
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 15px;
+      padding-right: 10px;
+
     }
   }

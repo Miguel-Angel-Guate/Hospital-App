@@ -11,12 +11,12 @@ export class PatientService {
 
   constructor(public httpClient: HttpClient) { }
   getAll():Observable<any>{
-    return this.httpClient.get('http://localhost:3000/patients');
+    return this.httpClient.get('/patients');
   }
   setPatients(patients):void{
     this.patients=patients;
   }
   search(searchValue){
-    return this.httpClient.get('http://localhost:3000/patients/name/'+searchValue);
+    return this.httpClient.get('/patients/name/'+searchValue);
   }
 }
